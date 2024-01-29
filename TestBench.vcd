@@ -1,0 +1,466 @@
+$date
+	Sun Jan 28 17:12:04 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module TestBench $end
+$var wire 3 ! state2 [2:0] $end
+$var wire 3 " state1 [2:0] $end
+$var wire 1 # secondWin $end
+$var wire 2 $ health2 [1:0] $end
+$var wire 2 % health1 [1:0] $end
+$var wire 1 & firstWin $end
+$var reg 3 ' action1 [2:0] $end
+$var reg 3 ( action2 [2:0] $end
+$var reg 1 ) actionEnable $end
+$var reg 1 * clk $end
+$var reg 1 + resetGame $end
+$scope module fG $end
+$var wire 3 , action1 [2:0] $end
+$var wire 3 - action2 [2:0] $end
+$var wire 1 ) actionEnable $end
+$var wire 1 * clk $end
+$var wire 1 + resetGame $end
+$var wire 3 . state2 [2:0] $end
+$var wire 3 / state1 [2:0] $end
+$var wire 2 0 health2 [1:0] $end
+$var wire 2 1 health1 [1:0] $end
+$var reg 3 2 currentState1 [2:0] $end
+$var reg 3 3 currentState2 [2:0] $end
+$var reg 1 & firstWin $end
+$var reg 1 4 isGameOver $end
+$var reg 1 # secondWin $end
+$scope module p1 $end
+$var wire 3 5 action1 [2:0] $end
+$var wire 3 6 action2 [2:0] $end
+$var wire 1 ) actionEnable $end
+$var wire 1 * clk $end
+$var wire 1 4 isGameOver $end
+$var wire 1 + reset $end
+$var wire 3 7 state2 [2:0] $end
+$var parameter 3 8 await $end
+$var parameter 3 9 jump $end
+$var parameter 3 : kick $end
+$var parameter 3 ; left1 $end
+$var parameter 3 < left2 $end
+$var parameter 3 = player1S0 $end
+$var parameter 3 > player1S1 $end
+$var parameter 3 ? player1S2 $end
+$var parameter 3 @ player2S0 $end
+$var parameter 3 A player2S1 $end
+$var parameter 3 B player2S2 $end
+$var parameter 3 C punch $end
+$var parameter 3 D right1 $end
+$var parameter 3 E right2 $end
+$var reg 1 F flagEnable $end
+$var reg 2 G health [1:0] $end
+$var reg 3 H state1 [2:0] $end
+$var reg 2 I wait_count [1:0] $end
+$upscope $end
+$scope module p2 $end
+$var wire 3 J action1 [2:0] $end
+$var wire 3 K action2 [2:0] $end
+$var wire 1 ) actionEnable $end
+$var wire 1 * clk $end
+$var wire 1 4 isGameOver $end
+$var wire 1 + reset $end
+$var wire 3 L state1 [2:0] $end
+$var parameter 3 M await $end
+$var parameter 3 N jump $end
+$var parameter 3 O kick $end
+$var parameter 3 P left1 $end
+$var parameter 3 Q left2 $end
+$var parameter 3 R player1S0 $end
+$var parameter 3 S player1S1 $end
+$var parameter 3 T player1S2 $end
+$var parameter 3 U player2S0 $end
+$var parameter 3 V player2S1 $end
+$var parameter 3 W player2S2 $end
+$var parameter 3 X punch $end
+$var parameter 3 Y right1 $end
+$var parameter 3 Z right2 $end
+$var reg 1 [ flagEnable $end
+$var reg 2 \ health [1:0] $end
+$var reg 3 ] state2 [2:0] $end
+$var reg 2 ^ wait_count [1:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b111 Z
+b110 Y
+b1 X
+b100 W
+b10 V
+b1 U
+b1 T
+b10 S
+b100 R
+b101 Q
+b100 P
+b0 O
+b11 N
+b10 M
+b111 E
+b110 D
+b1 C
+b100 B
+b10 A
+b1 @
+b1 ?
+b10 >
+b100 =
+b101 <
+b100 ;
+b0 :
+b11 9
+b10 8
+$end
+#0
+$dumpvars
+b0 ^
+b1 ]
+b11 \
+1[
+b100 L
+b100 K
+b110 J
+b0 I
+b100 H
+b11 G
+1F
+b1 7
+b100 6
+b110 5
+04
+b1 3
+b100 2
+b11 1
+b11 0
+b100 /
+b1 .
+b100 -
+b110 ,
+0+
+0*
+0)
+b100 (
+b110 '
+0&
+b11 %
+b11 $
+0#
+b100 "
+b1 !
+$end
+#5
+1)
+1+
+#10
+0[
+b10 !
+b10 .
+b10 ]
+0F
+b10 "
+b10 /
+b10 H
+1*
+#15
+1F
+1[
+0*
+0)
+#20
+1*
+#25
+b10 3
+b10 7
+b10 2
+b10 L
+0*
+1)
+#30
+0F
+b1 "
+b1 /
+b1 H
+0[
+b100 !
+b100 .
+b100 ]
+1*
+#35
+1[
+1F
+0*
+0)
+#40
+1*
+b11 (
+b11 -
+b11 6
+b11 K
+b1 '
+b1 ,
+b1 5
+b1 J
+#45
+b100 3
+b100 7
+b1 2
+b1 L
+0*
+1)
+#50
+0[
+0F
+1*
+#55
+1F
+1[
+0*
+0)
+#60
+1*
+b0 (
+b0 -
+b0 6
+b0 K
+#65
+0*
+1)
+#70
+0F
+0[
+b1 $
+b1 0
+b1 \
+1*
+#75
+1[
+1F
+0*
+0)
+#80
+1*
+b1 (
+b1 -
+b1 6
+b1 K
+#85
+0*
+1)
+#90
+0[
+b10 !
+b10 .
+b10 ]
+0F
+b10 "
+b10 /
+b10 H
+1*
+#95
+1F
+1[
+0*
+0)
+#100
+1*
+b10 (
+b10 -
+b10 6
+b10 K
+b110 '
+b110 ,
+b110 5
+b110 J
+#105
+b10 3
+b10 7
+b10 2
+b10 L
+0*
+1)
+#110
+0F
+b1 "
+b1 /
+b1 H
+0[
+b1 ^
+1*
+#115
+1[
+1F
+0*
+0)
+#120
+1*
+b11 '
+b11 ,
+b11 5
+b11 J
+#125
+b1 2
+b1 L
+0*
+1)
+#130
+0[
+b10 $
+b10 0
+b10 \
+b0 ^
+0F
+1*
+#135
+1F
+1[
+0*
+0)
+#140
+1*
+b0 (
+b0 -
+b0 6
+b0 K
+b1 '
+b1 ,
+b1 5
+b1 J
+#145
+0*
+1)
+#150
+0F
+b10 %
+b10 1
+b10 G
+0[
+1*
+#155
+1[
+1F
+0*
+0)
+#160
+1*
+b11 (
+b11 -
+b11 6
+b11 K
+b0 '
+b0 ,
+b0 5
+b0 J
+#165
+0*
+1)
+#170
+0[
+0F
+1*
+#175
+1F
+1[
+0*
+0)
+#180
+1*
+b0 (
+b0 -
+b0 6
+b0 K
+b100 '
+b100 ,
+b100 5
+b100 J
+#185
+0*
+1)
+#190
+0F
+b10 "
+b10 /
+b10 H
+0[
+1*
+#195
+1[
+1F
+0*
+0)
+#200
+1*
+b100 (
+b100 -
+b100 6
+b100 K
+b0 '
+b0 ,
+b0 5
+b0 J
+#205
+b10 2
+b10 L
+0*
+1)
+#210
+0[
+b1 $
+b1 0
+b1 \
+b100 !
+b100 .
+b100 ]
+0F
+1*
+#215
+1F
+1[
+0*
+0)
+#220
+1*
+#225
+0*
+#230
+1*
+#235
+0*
+#240
+1*
+#245
+0*
+#250
+1*
+#255
+0*
+#260
+1*
+#265
+0*
+#270
+1*
+#275
+0*
+#280
+1*
+#285
+0*
+#290
+1*
+#295
+0*
+#300
+1*
+#305
+0*
